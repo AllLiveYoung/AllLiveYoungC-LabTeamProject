@@ -1,0 +1,55 @@
+@font-face {
+     font-family: 'S-CoreDream-9Black';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-9Black.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#main_header {
+    width: 100vw;
+    height: 70px;
+    border: 1px solid black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+
+#main_header_logo {
+    /* border: 1px solid black; */
+    margin-left: 4vw;
+    width: 17vw;
+    height: 70px;
+
+    font-size: 2vw;
+    font-family: 'S-CoreDream-9Black';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main_container {
+    border: 1px solid black;
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    margin-top: 70px;
+}
+
+#table_of_contents {
+    border: 1px solid black;
+    width: 15vw;
+    height: 90vh;
+}
+
+#main_middle_front_cover {
+    border: 1px solid black;
+    width: 85vw;
+    height: 90vh;
+}
+
