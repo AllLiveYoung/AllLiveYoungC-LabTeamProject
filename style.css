@@ -42,11 +42,11 @@ li::marker {
 
 #main_header_logo {
     /* border: 1px solid black; */
-    margin-left: 5vw;
-    width: 17vw;
+    margin-left: 3vw;
+    width: 15vw;
     height: 70px;
 
-    font-size: 27px;
+    font-size: 35px;
     font-family: 'S-CoreDream-9Black';
     display: flex;
     justify-content: center;
@@ -109,8 +109,8 @@ li::marker {
     /* border: 1px solid black; */
     width: 45vw;
     height: 20vh;
-    display: flex;
-    align-items: center;
+    
+    
 }
 
 .main_cover_logo:nth-child(1) {
