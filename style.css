@@ -81,7 +81,6 @@ li::marker {
     margin-right: 7px;
     width: 15vw;
     height: 70px;
-    /* border: 1px solid black ; */
     color: black;
     display: flex;
     flex-direction: row-reverse;
@@ -90,15 +89,21 @@ li::marker {
 #main_header_logo_contents_bars{
     width: 15vw;
     height: 70px;
-    font-size: 30px;
-    
+    font-size: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #main_header_logo_contents_moon{
     width: 15vw;
     height: 70px;
     font-size: 30px;
-    /* border: 1px solid black ; */
+    border: 1px solid black ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 #main_container {
