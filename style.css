@@ -96,10 +96,10 @@ li::marker {
 }
 
 #main_header_logo_contents_moon{
+      /* border: 1px solid black ; */
     width: 15vw;
     height: 70px;
     font-size: 30px;
-    border: 1px solid black ;
     display: flex;
     justify-content: center;
     align-items: center;
