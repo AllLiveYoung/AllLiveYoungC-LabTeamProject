@@ -79,8 +79,9 @@ li::marker {
 
 #main_middle_front_cover {
     /* border: 1px solid black; */
+    margin-left: 20px;
     width: 87vw;
-    height: 160vh;
+    height: 90vh;
 }
 
 #table_of_contents_content {
@@ -107,9 +108,9 @@ li::marker {
     width: 45vw;
     height: 90vh;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    transform: translateY(-10%);
 }
 
 .main_cover_logo {
@@ -117,14 +118,13 @@ li::marker {
     width: 45vw;
     height: 20vh;
     
-    
 }
 
-.main_cover_logo:nth-child(1) {
-    font-size: 70px;
-    font-family: 'Nanum Gothic';
+.main_cover_logo_fullname {
+    font-size: 20px;
+    opacity: 0.5;
 }
 
-.main_cover_logo:nth-child(2) {
+.main_cover_logo_title {
     font-size: 60px;
 }
