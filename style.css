@@ -59,6 +59,8 @@ li::marker {
     left: 0;
     right: 0;
     background-color: transparent;
+    display: flex;
+    justify-content: space-between;
 
 }
 
@@ -73,6 +75,20 @@ li::marker {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#main_header_logo_contents{
+    margin-right: 10px;
+    width: 15vw;
+    height: 70px;
+    border: 1px solid black ;
+    color: black;
+}
+
+#main_header_logo_contents_bars{
+    margin-right: 10px;
+    width: 15vw;
+    height: 70px;
 }
 
 #main_container {
@@ -153,7 +169,7 @@ li::marker {
     transform: translateX(-10%);
 }
 
-/* 두번째 페이지 */
+
 
 #second_arr {
     width: 100vw;
