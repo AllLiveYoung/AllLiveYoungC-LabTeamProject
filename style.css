@@ -26,7 +26,12 @@
     font-style: normal;
 }
 
-
+@font-face {
+    font-family: 'EliceDigitalBaeum_Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/EliceDigitalBaeum_Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 * {
     margin: 0;
@@ -136,4 +141,5 @@ li::marker {
 .main_cover_logo_title {
     font-size: 70px;
     font-weight: '';
+    font-family: 'EliceDigitalBaeum_Regular';
 }
