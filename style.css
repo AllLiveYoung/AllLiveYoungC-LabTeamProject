@@ -78,8 +78,8 @@ li::marker {
 }
 
 #main_header_logo_contents{
-    margin-right: 7px;
-    width: 15vw;
+    
+    width: 10vw;
     height: 70px;
     color: black;
     display: flex;
@@ -99,7 +99,7 @@ li::marker {
     width: 15vw;
     height: 70px;
     font-size: 30px;
-    border: 1px solid black ;
+    /* border: 1px solid black ; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -202,22 +202,21 @@ li::marker {
 }
 
 
-
 #second_arr {
     width: 100vw;
     height: 100vh;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 #third_arr {
     width: 100vw;
     height: 100vh;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 #fourth_arr {
     width: 100vw;
     height: 100vh;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 #fifth_arr {
     width: 100vw;
@@ -227,9 +226,9 @@ li::marker {
 
 #second_page_main_container {
     /* border: 1px solid black; */
-    width: 87vw;
+    width: 40vw;
     height: 100vh;
-    margin-left: 13vw;
+    margin-left: 60vw;
 } 
 #second_page_title_cover {
     /* border: 1px solid black; */
@@ -240,14 +239,17 @@ li::marker {
     justify-content: center;
     align-items: center;
     
+    
 }
 
 .second_page_main_title {
     /* border: 1px solid black; */
-    width: 45vw;
+    width: 40vw;
     height: 20vh;
-    margin-left: 60px;
+    
     transform: translateY(-60%);
+    /* position: relative; */
+    margin-left: 0;
 }
 
 .second_page_sub_title {
@@ -258,14 +260,44 @@ li::marker {
 
 .second_page_title {
     font-size: 60px;
-    font-weight: '';
     font-family: 'EliceDigitalBaeum_Regular';
 }
 
-.second_page_title:nth-child(3) {
-    transform: translateX(19%);
+#third_page_main_container {
+    /* border: 1px solid black; */
+    width: 87vw;
+    height: 100vh;
+    margin-left: 13vw;
+} 
+#third_page_title_cover {
+    /* border: 1px solid black; */
+    width: 40vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
 }
 
-.second_page_title:nth-child(4) {
-    transform: translateX(50%);
+.third_page_main_title {
+    /* border: 1px solid black; */
+    width: 40vw;
+    height: 20vh;
+    
+    transform: translateY(-60%);
+    /* position: relative; */
+    margin-left: 0;
+}
+
+.third_page_sub_title {
+    font-size: 40px;
+    color: #F2EA79;
+    
+}
+
+.third_page_title {
+    font-size: 60px;
+    font-family: 'EliceDigitalBaeum_Regular';
 }
