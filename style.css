@@ -130,7 +130,22 @@ li::marker {
 }
 
 .contents {
-    margin: 15px;
+    margin: 20px;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -ms-transition: 0.3s;
+    transform: 0.3s;
+}
+
+.contents:hover {
+    -webkit-transition: scale(1.2,1.2);
+    -moz-transition: scale(1.2,1.2);
+    -o-transition: scale(1.2,1.2);
+    -ms-transition: scale(1.2,1.2);
+    transform: scale(1.2,1.2);
+    transform: scale(1.2,1.2);
+
 }
 
 #main_middle_front_cover_logo {
@@ -192,3 +207,4 @@ li::marker {
     height: 100vh;
     border: 1px solid black;
 }
+
