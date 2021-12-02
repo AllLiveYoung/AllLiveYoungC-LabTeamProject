@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body { 
+    display: inline-block; 
+    width: 100%; 
+    background-color: gold;
+    display: flex; 
+} 
+
+
+p { 
+    text-align: center; 
+    align-items: center; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold; 
+} 
+
+.boxWrap1{ 
+    margin-left: 40px; 
+    flex-direction: column; 
+} 
+
+.boxWrap2{ 
+    flex-direction: column; 
+} 
+
+.inBox { 
+    width: 150px; 
+    height: 100px; 
+    margin: 20px; 
+    position: relative; 
+    background-color: gray; 
+    border: 4px solid #000; 
+} 
+
+.box1 .inBox { 
+    --position: absolute; 
+    mix-blend-mode: normal; 
+     
+} 
+
+.box2 .inBox { 
+    mix-blend-mode: multiply; 
+} 
+
+.box3 .inBox { 
+    mix-blend-mode: screen; 
+} 
+
+.box4 .inBox { 
+    mix-blend-mode: overlay; 
+} 
+
+.box5 .inBox { 
+    mix-blend-mode: darken; 
+} 
+
+.box6 .inBox { 
+    mix-blend-mode: lighten; 
+} 
+
+.box7 .inBox { 
+    mix-blend-mode: color-dodge; 
+} 
+
+.box8 .inBox { 
+    mix-blend-mode: color-burn; 
+} 
+
+.box9 .inBox { 
+    mix-blend-mode: hard-light; 
+} 
+
+.box10 .inBox { 
+    mix-blend-mode: soft-light; 
+} 
+
+.box11 .inBox { 
+    mix-blend-mode: difference; 
+}
+
+.box13{
+    background-color: black;
+}
+ 
+    </style>
+</head>
+<body>
+    <section class = "boxWrap1">
+      <div class= "box1"> 
+           <div class="inBox"> 
+               <p>normal</p> 
+           </div> 
+       </div> 
+   
+       <div class= "box2"> 
+           <div class="inBox"> 
+               <p>multiply</p> 
+           </div> 
+       </div> 
+   
+       <div class= "box3"> 
+           <div class="inBox"> 
+               <p>screen</p> 
+           </div> 
+       </div> 
+   
+       <div class= "box4"> 
+          <div class="inBox"> 
+               <p>overlay</p> 
+           </div> 
+       </div> 
+   
+       <div class= "box5"> 
+           <div class="inBox"> 
+               <p>darken</p> 
+          </div> 
+       </div>      
+    </section> 
+   
+    <section class="boxWrap2"> 
+   
+       <div class= "box6"> 
+        <div class="inBox"> 
+               <p>lighten</p> 
+           </div> 
+       </div> 
+   
+       <div class= "box7"> 
+           <div class="inBox"> 
+               <p>color-dodge</p> 
+           </div> 
+       </div> 
+   
+       <div class= "box8"> 
+           <div class="inBox"> 
+               <p>color-burn</p> 
+           </div> 
+       </div> 
+   
+       <div class= "box9"> 
+           <div class="inBox"> 
+               <p>hard-light</p> 
+           </div> 
+       </div> 
+   
+       <div class= "box10"> 
+           <div class="inBox"> 
+               <p>soft-light</p> 
+           </div> 
+       </div> 
+   
+       
+               <p class="box11">difference</p> 
+           
+       </div>    
+    </section>
+   </body>
+    
+   
+   
+   <!--출처: https://hyoni-k.tistory.com/48 [Record *] !-->
+</html>

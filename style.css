@@ -30,6 +30,14 @@
     font-style: normal;
 }
 
+p::selection, div::selection, a::selection {
+    background: transparent;
+}
+
+p {
+    cursor: default;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -45,15 +53,35 @@ li::marker {
     
 }
 
-#first_arr {
+#scroll_container {
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100vw;
     height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    /* background-color: green; */
+}
+
+.scroll_box_child {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    scroll-snap-align: start;
+}
+
+#first_arr {
+    background-color: #f2f2f2;
 }
 
 #main_header {
     width: 100vw;
     height: 70px;
-    border: 1px solid black;
     position: fixed;
     top: 0;
     left: 0;
@@ -61,7 +89,12 @@ li::marker {
     /* background-color: transparent; */
     display: flex;
     justify-content: space-between;
+    z-index: 99;
+    background-color: white;
+}
 
+#brand_name {
+    cursor: pointer;
 }
 
 #main_header_logo {
@@ -75,6 +108,7 @@ li::marker {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #0d0d0d
 }
 
 #main_header_logo_contents{
@@ -151,7 +185,8 @@ li::marker {
     -moz-transition: 0.3s;
     -o-transition: 0.3s;
     -ms-transition: 0.3s;
-    transform: 0.3s;
+    transform: 0.3s;  
+    z-index: 99;  
 }
 
 .contents:hover {
@@ -162,6 +197,10 @@ li::marker {
     transform: scale(1.2,1.2);
     transform: scale(1.2,1.2);
 
+}
+
+.mix_blend_mode {
+    mix-blend-mode: difference;
 }
 
 #main_middle_front_cover_logo {
@@ -204,24 +243,18 @@ li::marker {
 
 
 #second_arr {
-    width: 100vw;
-    height: 100vh;
     /* border: 1px solid black; */
 }
 
 #third_arr {
-    width: 100vw;
-    height: 100vh;
     /* border: 1px solid black; */
+    transition: background-color 0.8s;
 }
 #fourth_arr {
-    width: 100vw;
-    height: 100vh;
     /* border: 1px solid black; */
+    /* background-color: white; */
 }
 #fifth_arr {
-    width: 100vw;
-    height: 100vh;
     border: 1px solid black;
 }
 
@@ -303,6 +336,18 @@ li::marker {
     font-family: 'EliceDigitalBaeum_Regular';
 }
 
-#fourth_arr {
-    background-color: black;
+
+.boxxxx {
+    width: 100vw;
+    height: 100vh;
+    font-size: 30px;
+    color: green;
 }
+
+#boxfour {
+    /* background-color: black; */
+}
+
+/* .textColorWhite {
+    color: white
+} */
