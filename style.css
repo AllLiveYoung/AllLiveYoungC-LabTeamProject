@@ -118,10 +118,11 @@ li::marker {
     color: black;
     display: flex;
     flex-direction: row-reverse;
+    margin-right: 80px;
 }
 
 #main_header_logo_contents_bars{
-    width: 15vw;
+    width: 3rem;
     height: 70px;
     font-size: 30px;
     display: flex;
@@ -131,13 +132,14 @@ li::marker {
 
 #main_header_logo_contents_moon{
       /* border: 1px solid black ; */
-    width: 15vw;
+    width: 2rem;
     height: 70px;
-    font-size: 30px;
+    font-size: 25px;
     /* border: 1px solid black ; */
     display: flex;
     justify-content: center;
     align-items: center;
+    
     
 }
 
@@ -255,7 +257,7 @@ li::marker {
     /* background-color: white; */
 }
 #fifth_arr {
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 #second_page_main_container {
@@ -279,7 +281,7 @@ li::marker {
 .second_page_main_title {
     /* border: 1px solid black; */
     width: 40vw;
-    height: 20vh;
+    height: 30vh;
     
     transform: translateY(-60%);
     /* position: relative; */
@@ -295,6 +297,39 @@ li::marker {
 .second_page_title {
     font-size: 60px;
     font-family: 'EliceDigitalBaeum_Regular';
+}
+
+/* #second_page_title_more{
+    font-size: 27px;
+    border: 0.5px solid black;
+    width: 150px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 420px;
+    font-family: 'EliceDigitalBaeum_Regular';
+}
+
+#seconfd_page_title_more:hover {
+    color: white;
+    background-color: black;
+} */
+button{
+    font-size: 27px;
+    border: 0.5px solid black;
+    width: 150px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 420px;
+    font-family: 'EliceDigitalBaeum_Regular';
+}
+
+button:hover {
+    color: white;
+    background-color: black;
 }
 
 #third_page_main_container {
