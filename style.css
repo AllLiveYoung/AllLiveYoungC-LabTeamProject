@@ -89,7 +89,7 @@ li::marker {
 #main_header_logo_contents_bars{
     width: 15vw;
     height: 70px;
-    font-size: 31px;
+    font-size: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -301,4 +301,8 @@ li::marker {
 .third_page_title {
     font-size: 60px;
     font-family: 'EliceDigitalBaeum_Regular';
+}
+
+#fourth_arr {
+    background-color: black;
 }
