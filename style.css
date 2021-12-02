@@ -112,16 +112,16 @@ li::marker {
 #table_of_contents {
     /* border: 1px solid black; */
     width: 13vw;
-    height: 90vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 #main_middle_front_cover {
-    /* border: 1px solid black; */
+    border: 1px solid black;
     width: 87vw;
-    height: 90vh;
+    height: 100vh;
 }
 
 #table_of_contents_content {
@@ -173,20 +173,23 @@ li::marker {
     /* border: 1px solid black; */
     width: 45vw;
     height: 20vh;
-    transform: translateY(-100%);
+    transform: translateY(-80%);
 }
 
 .main_cover_logo_fullname {
-    font-size: 20px;
-    opacity: 0.3;
+    font-size: 30px;
+    
+    color: #F2EA79;
 }
 
 .main_cover_logo_title {
     /* border: 1px solid black; */
     font-size: 85px;
-    font-weight: '';
     font-family: 'EliceDigitalBaeum_Regular';
     
+}
+.main_cover_logo_title:nth-child(2) {
+    font-size: 80px;
 }
 .main_cover_logo_title:nth-child(4) {
     display: flex;
@@ -218,3 +221,47 @@ li::marker {
     border: 1px solid black;
 }
 
+#second_page_main_container {
+    border: 1px solid black;
+    width: 87vw;
+    height: 100vh;
+    margin-left: 13vw;
+} 
+#second_page_title_cover {
+    /* border: 1px solid black; */
+    width: 40vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.second_page_main_title {
+    /* border: 1px solid black; */
+    width: 45vw;
+    height: 20vh;
+    margin-left: 60px;
+    transform: translateY(-60%);
+}
+
+.second_page_sub_title {
+    font-size: 40px;
+    color: #F2EA79;
+    
+}
+
+.second_page_title {
+    font-size: 60px;
+    font-weight: '';
+    font-family: 'EliceDigitalBaeum_Regular';
+}
+
+.second_page_title:nth-child(3) {
+    transform: translateX(19%);
+}
+
+.second_page_title:nth-child(4) {
+    transform: translateX(50%);
+}
