@@ -19,6 +19,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'ROKABold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2104@1.1/ROKABold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -47,7 +54,7 @@ li::marker {
     height: 70px;
 
     font-size: 35px;
-    font-family: 'S-CoreDream-9Black';
+    font-family: 'ROKABold';
     display: flex;
     justify-content: center;
     align-items: center;
