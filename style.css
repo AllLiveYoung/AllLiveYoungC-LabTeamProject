@@ -35,7 +35,11 @@
     padding: 0;
 }
 
-
+a {
+    font-style: none;
+    text-decoration: none;
+    color: black;
+}
 li::marker {
     font-size: 4px;
     
@@ -115,19 +119,20 @@ li::marker {
 
 #main_middle_front_cover_logo {
     /* border: 1px solid black; */
-    width: 45vw;
+    width: 40vw;
     height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-left: 30px;
 }
 
 .main_cover_logo {
     /* border: 1px solid black; */
     width: 45vw;
     height: 20vh;
-    transform: translateY(-50%);
+    transform: translateY(-100%);
 }
 
 .main_cover_logo_fullname {
@@ -136,7 +141,38 @@ li::marker {
 }
 
 .main_cover_logo_title {
-    font-size: 70px;
+    /* border: 1px solid black; */
+    font-size: 85px;
     font-weight: '';
     font-family: 'EliceDigitalBaeum_Regular';
+    
+}
+.main_cover_logo_title:nth-child(4) {
+    display: flex;
+    justify-content: center;
+    transform: translateX(-10%);
+}
+
+/* 두번째 페이지 */
+
+#second_arr {
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid black;
+}
+
+#third_arr {
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid black;
+}
+#fourth_arr {
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid black;
+}
+#fifth_arr {
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid black;
 }
