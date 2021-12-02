@@ -81,7 +81,7 @@ li::marker {
     margin-right: 7px;
     width: 15vw;
     height: 70px;
-    border: 1px solid black ;
+    /* border: 1px solid black ; */
     color: black;
     display: flex;
     flex-direction: row-reverse;
@@ -119,7 +119,7 @@ li::marker {
 }
 
 #main_middle_front_cover {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 87vw;
     height: 100vh;
 }
@@ -177,8 +177,7 @@ li::marker {
 }
 
 .main_cover_logo_fullname {
-    font-size: 30px;
-    
+    font-size: 40px;
     color: #F2EA79;
 }
 
@@ -222,7 +221,7 @@ li::marker {
 }
 
 #second_page_main_container {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 87vw;
     height: 100vh;
     margin-left: 13vw;
