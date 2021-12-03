@@ -14,6 +14,12 @@ const brandName = document.getElementById("brand_name");
 const menuIcon = document.getElementsByClassName("fas fa-bars");
 const darkMode = document.getElementsByClassName("fas fa-moon");
 
+function goToTheTop() {
+    firstBox.scrollTop(0, 0);
+    console.log('1')
+}
+brandName.addEventListener("click", goToTheTop)
+
 
 
 // 4번박스 색변경
@@ -114,7 +120,7 @@ gsap.to(brandName, {
     }
 });
 
-gsap.fromTo(header, {backgroundColor: "#727272"}, {
+gsap.fromTo(header, { backgroundColor: "#727272" }, {
     duration: 0.5,
     backgroundColor: "white",
     scrollTrigger: {
@@ -128,7 +134,7 @@ gsap.fromTo(header, {backgroundColor: "#727272"}, {
     }
 });
 
-gsap.fromTo(header, {backgroundColor: "white"}, {
+gsap.fromTo(header, { backgroundColor: "white" }, {
     duration: 0.5,
     backgroundColor: "black",
     scrollTrigger: {
@@ -142,7 +148,7 @@ gsap.fromTo(header, {backgroundColor: "white"}, {
     }
 });
 
-gsap.fromTo(header, {backgroundColor: "black"}, {
+gsap.fromTo(header, { backgroundColor: "black" }, {
     duration: 0.5,
     backgroundColor: "white",
     scrollTrigger: {
@@ -156,7 +162,7 @@ gsap.fromTo(header, {backgroundColor: "black"}, {
     }
 });
 
-gsap.fromTo(header, {backgroundColor: "#f2f2f2"}, {
+gsap.fromTo(header, { backgroundColor: "#f2f2f2" }, {
     duration: 0.5,
     backgroundColor: "#727272",
     scrollTrigger: {
