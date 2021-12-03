@@ -16,16 +16,6 @@ const darkMode = document.getElementsByClassName("fas fa-moon");
 
 
 
-
-function topppp() {
-    scrollContainer.scrollTop = 0
-    console.log('1')
-}
-var backToTheTop = document.getElementById("brand_name");
-backToTheTop.addEventListener("click", topppp)
-
-
-
 // 4번박스 색변경
 gsap.to(fourthBox, {
     duration: 0.5,
@@ -34,9 +24,9 @@ gsap.to(fourthBox, {
         scroller: scrollContainer,
         trigger: fourthBox,
         toggleActions: "play reverse play reverse",
-        // scrub: true,
+        scrub: true,
         start: "center bottom",
-        end: "center top",
+        end: "200px 200px",
         // markers: true,
     }
 });
@@ -62,42 +52,6 @@ gsap.to(links, {
 gsap.to(linkDots, {
     duration: 0.3,
     color: "white",
-    scrollTrigger: {
-        scroller: scrollContainer,
-        trigger: fourthBox,
-        toggleActions: "play reverse play reverse",
-        // scrub: true,
-        start: "center bottom",
-        end: "center top",
-        // markers: true,
-    }
-});
-
-
-// 헤더 배경 색깔 변경&실행 (1번 박스)
-gsap.to(header, {
-    duration: 0.5,
-    backgroundColor: "#f2f2f2",
-    scrollTrigger: {
-        scroller: scrollContainer,
-        trigger: firstBox,
-        toggleActions: "play reverse play reverse",
-        // scrub: true,
-        start: "center bottom",
-        end: "center top",
-        // markers: true,
-    }
-});
-
-
-
-
-
-
-// 헤더 배경 색깔 변경 (4번 박스)
-gsap.to(header, {
-    duration: 0.5,
-    backgroundColor: "black",
     scrollTrigger: {
         scroller: scrollContainer,
         trigger: fourthBox,
@@ -153,6 +107,62 @@ gsap.to(brandName, {
         // scrub: true,
         start: "center bottom",
         end: "center top",
+        // markers: true,
+    }
+});
+
+gsap.fromTo(header, {backgroundColor: "#727272"}, {
+    duration: 0.5,
+    backgroundColor: "white",
+    scrollTrigger: {
+        scroller: scrollContainer,
+        trigger: secondBox,
+        // toggleActions: "play none reverse reverse",
+        scrub: true,
+        start: "bottom center",
+        end: "bottom top",
+        // markers: true,
+    }
+});
+
+gsap.fromTo(header, {backgroundColor: "white"}, {
+    duration: 0.5,
+    backgroundColor: "black",
+    scrollTrigger: {
+        scroller: scrollContainer,
+        trigger: thirdBox,
+        // toggleActions: "play none reverse reverse",
+        scrub: true,
+        start: "bottom center",
+        end: "bottom top",
+        // markers: true,
+    }
+});
+
+gsap.fromTo(header, {backgroundColor: "black"}, {
+    duration: 0.5,
+    backgroundColor: "white",
+    scrollTrigger: {
+        scroller: scrollContainer,
+        trigger: fourthBox,
+        // toggleActions: "play none reverse reverse",
+        scrub: true,
+        start: "bottom center",
+        end: "bottom top",
+        // markers: true,
+    }
+});
+
+gsap.fromTo(header, {backgroundColor: "#f2f2f2"}, {
+    duration: 0.5,
+    backgroundColor: "#727272",
+    scrollTrigger: {
+        scroller: scrollContainer,
+        trigger: firstBox,
+        // toggleActions: "play none reverse reverse",
+        scrub: true,
+        start: "bottom center",
+        end: "bottom top",
         // markers: true,
     }
 });

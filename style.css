@@ -86,11 +86,11 @@ li::marker {
     top: 0;
     left: 0;
     right: 0;
-    /* background-color: transparent; */
+    background-color: #f2f2f2;
     display: flex;
     justify-content: space-between;
     z-index: 99;
-    background-color: white;
+    
 }
 
 #brand_name {
@@ -247,6 +247,7 @@ li::marker {
 
 #second_arr {
     /* border: 1px solid black; */
+    background-color: #737373;
 }
 
 #third_arr {
@@ -286,6 +287,7 @@ li::marker {
     /* border: 1px solid black; */
     width: 40vw;
     height: 30vh;
+    background-color: #737373;
     
     transform: translateY(-60%);
     /* position: relative; */
