@@ -413,7 +413,7 @@ li::marker {
 .fourth_arr_member_cover {
     /* border: 1px solid white; */
     width: 500vw;
-    height: 40vh;
+    height: 38vh;
     display: flex;
     justify-content: space-between;
     margin-right: 3vw;
@@ -422,7 +422,7 @@ li::marker {
 .fourth_arr_member {
     border: 1px solid white;
     width: 18vw;
-    height: 40vh;
+    height: 38vh;
     border-radius: 20px;
 }
 
