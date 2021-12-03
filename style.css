@@ -320,16 +320,37 @@ li::marker {
     border: 0.5px solid black;
     width: 150px;
     height: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-right: 29vw;
     font-family: 'EliceDigitalBaeum_Regular';
+    position: relative;
+    transition: 0.4s;
+    overflow: hidden;
+    background-color: white;
+    text-transform: uppercase;
 }
 
-#second_page_title_more:hover{
+/* #second_page_title_more::before {
+    content: "";
+    position:absolute;
+    top: 0;
+    right: 100%;
+    transition: all 0.5s;
+    z-index: -2;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+} */
+#second_page_title_more:focus{
+    outline: none;
+}
+
+#second_page_title_more:hover:before {
+    transform: translateX(100%);
+}
+#second_page_title_more:hover {
     color: white;
     background-color: black;
+    
 }
 
 #third_page_main_container {

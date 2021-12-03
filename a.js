@@ -27,7 +27,7 @@ gsap.to(fourthBox, {
         // scrub: true,
         start: "center bottom",
         end: "center top",
-        markers: true,
+        // markers: true,
     }
 });
 
@@ -43,7 +43,7 @@ gsap.to(links, {
         // scrub: true,
         start: "center bottom",
         end: "center top",
-        markers: true,
+        // markers: true,
     }
 });
 
@@ -59,7 +59,7 @@ gsap.to(linkDots, {
         // scrub: true,
         start: "center bottom",
         end: "center top",
-        markers: true,
+        // markers: true,
     }
 });
 
@@ -75,7 +75,7 @@ gsap.to(header, {
         // scrub: true,
         start: "center bottom",
         end: "center top",
-        markers: true,
+        // markers: true,
     }
 });
 
@@ -95,7 +95,7 @@ gsap.to(header, {
         // scrub: true,
         start: "center bottom",
         end: "center top",
-        markers: true,
+        // markers: true,
     }
 });
 
@@ -111,7 +111,7 @@ gsap.to(menuIcon, {
         // scrub: true,
         start: "center bottom",
         end: "center top",
-        markers: true,
+        // markers: true,
     }
 });
 
@@ -127,7 +127,7 @@ gsap.to(darkMode, {
         // scrub: true,
         start: "center bottom",
         end: "center top",
-        markers: true,
+        // markers: true,
     }
 });
 
@@ -143,6 +143,6 @@ gsap.to(brandName, {
         // scrub: true,
         start: "center bottom",
         end: "center top",
-        markers: true,
+        // markers: true,
     }
 });
