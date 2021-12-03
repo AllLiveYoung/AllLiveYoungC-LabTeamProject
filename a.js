@@ -16,7 +16,7 @@ const darkMode = document.getElementsByClassName("fas fa-moon");
 
 
 
-// 4번박스 생변경
+// 4번박스 색변경
 gsap.to(fourthBox, {
     duration: 0.5,
     backgroundColor: "black",
@@ -27,7 +27,7 @@ gsap.to(fourthBox, {
         // scrub: true,
         start: "center bottom",
         end: "center top",
-        // markers: true,
+        markers: true,
     }
 });
 
@@ -43,7 +43,7 @@ gsap.to(links, {
         // scrub: true,
         start: "center bottom",
         end: "center top",
-        // markers: true,
+        markers: true,
     }
 });
 
@@ -59,7 +59,7 @@ gsap.to(linkDots, {
         // scrub: true,
         start: "center bottom",
         end: "center top",
-        // markers: true,
+        markers: true,
     }
 });
 
@@ -75,7 +75,7 @@ gsap.to(header, {
         // scrub: true,
         start: "center bottom",
         end: "center top",
-        // markers: true,
+        markers: true,
     }
 });
 
@@ -95,7 +95,7 @@ gsap.to(header, {
         // scrub: true,
         start: "center bottom",
         end: "center top",
-        // markers: true,
+        markers: true,
     }
 });
 
@@ -111,7 +111,7 @@ gsap.to(menuIcon, {
         // scrub: true,
         start: "center bottom",
         end: "center top",
-        // markers: true,
+        markers: true,
     }
 });
 
@@ -127,12 +127,12 @@ gsap.to(darkMode, {
         // scrub: true,
         start: "center bottom",
         end: "center top",
-        // markers: true,
+        markers: true,
     }
 });
 
 
-// 팀 로고 색 변경 (4번쨰 박스)
+// 팀 로고 색 변경 (4번째 박스)
 gsap.to(brandName, {
     duration: 0.5,
     color: "white",
@@ -143,6 +143,6 @@ gsap.to(brandName, {
         // scrub: true,
         start: "center bottom",
         end: "center top",
-        // markers: true,
+        markers: true,
     }
 });

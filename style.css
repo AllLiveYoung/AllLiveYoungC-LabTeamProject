@@ -315,7 +315,7 @@ li::marker {
     color: white;
     background-color: black;
 } */
-button{
+#second_page_title_more {
     font-size: 27px;
     border: 0.5px solid black;
     width: 150px;
@@ -323,11 +323,11 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 420px;
+    margin-right: 29vw;
     font-family: 'EliceDigitalBaeum_Regular';
 }
 
-button:hover {
+#second_page_title_more:hover{
     color: white;
     background-color: black;
 }
