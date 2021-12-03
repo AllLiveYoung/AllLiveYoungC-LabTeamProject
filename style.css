@@ -253,8 +253,11 @@ li::marker {
     transition: background-color 0.8s;
 }
 #fourth_arr {
-    /* border: 1px solid black; */
+    /* border: 1px solid yellow; */
     /* background-color: white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #fifth_arr {
     /* border: 1px solid black; */
@@ -398,10 +401,27 @@ li::marker {
     height: 100vh;
     font-size: 30px;
     color: green;
+    
 }
 
 #boxfour {
     /* background-color: black; */
+    
+}
+
+.fourth_arr_member_cover {
+    border: 1px solid white;
+    width: 500vw;
+    height: 40vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fourth_arr_member {
+    border: 1px solid white;
+    width: 18vw;
+    height: 40vh;
+    border-radius: 20px;
 }
 
 /* .textColorWhite {
