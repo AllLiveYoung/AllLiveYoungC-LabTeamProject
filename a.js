@@ -16,6 +16,16 @@ const darkMode = document.getElementsByClassName("fas fa-moon");
 
 
 
+
+function topppp() {
+    scrollContainer.scrollTop = 0
+    console.log('1')
+}
+var backToTheTop = document.getElementById("brand_name");
+backToTheTop.addEventListener("click", topppp)
+
+
+
 // 4번박스 색변경
 gsap.to(fourthBox, {
     duration: 0.5,
