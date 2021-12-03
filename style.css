@@ -224,8 +224,9 @@ li::marker {
 }
 
 .main_cover_logo_fullname {
-    font-size: 40px;
+    font-size: 30px;
     color: #F2EA79;
+    font-weight: 'EliceDigitalBaeum_Regular';
 }
 
 .main_cover_logo_title {
