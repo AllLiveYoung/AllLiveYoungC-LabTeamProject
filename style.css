@@ -1,21 +1,24 @@
 @font-face {
-     font-family: 'S-CoreDream-9Black';
-     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-9Black.woff') format('woff');
-     font-weight: normal;
-     font-style: normal;
+    font-family: 'S-CoreDream-9Black';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-9Black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
+
 @font-face {
     font-family: 'Cafe24SsurroundAir';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24SsurroundAir.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'GyeonggiTitleM';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiTitleM.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'ROKABold';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2104@1.1/ROKABold.woff') format('woff');
@@ -30,7 +33,9 @@
     font-style: normal;
 }
 
-p::selection, div::selection, a::selection {
+p::selection,
+div::selection,
+a::selection {
     background: transparent;
 }
 
@@ -48,9 +53,10 @@ a {
     text-decoration: none;
     color: black;
 }
+
 li::marker {
     font-size: 4px;
-    
+
 }
 
 #scroll_container {
@@ -66,6 +72,7 @@ li::marker {
     overflow-x: hidden;
     overflow-y: scroll;
     /* background-color: green; */
+    /* border: 10px solid yellow; */
 }
 
 .scroll_box_child {
@@ -111,8 +118,8 @@ li::marker {
     color: #0d0d0d
 }
 
-#main_header_logo_contents{
-    
+#main_header_logo_contents {
+
     width: 10vw;
     height: 70px;
     color: black;
@@ -121,7 +128,7 @@ li::marker {
     margin-right: 80px;
 }
 
-#main_header_logo_contents_bars{
+#main_header_logo_contents_bars {
     width: 3rem;
     height: 70px;
     font-size: 30px;
@@ -130,8 +137,8 @@ li::marker {
     align-items: center;
 }
 
-#main_header_logo_contents_moon{
-      /* border: 1px solid black ; */
+#main_header_logo_contents_moon {
+    /* border: 1px solid black ; */
     width: 2rem;
     height: 70px;
     font-size: 25px;
@@ -139,8 +146,8 @@ li::marker {
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
+
+
 }
 
 #main_container {
@@ -158,6 +165,7 @@ li::marker {
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 1;
 }
 
 #main_middle_front_cover {
@@ -187,17 +195,17 @@ li::marker {
     -moz-transition: 0.3s;
     -o-transition: 0.3s;
     -ms-transition: 0.3s;
-    transform: 0.3s;  
-    z-index: 99;  
+    transform: 0.3s;
+    z-index: 99;
 }
 
 .contents:hover {
-    -webkit-transition: scale(1.2,1.2);
-    -moz-transition: scale(1.2,1.2);
-    -o-transition: scale(1.2,1.2);
-    -ms-transition: scale(1.2,1.2);
-    transform: scale(1.2,1.2);
-    transform: scale(1.2,1.2);
+    -webkit-transition: scale(1.2, 1.2);
+    -moz-transition: scale(1.2, 1.2);
+    -o-transition: scale(1.2, 1.2);
+    -ms-transition: scale(1.2, 1.2);
+    transform: scale(1.2, 1.2);
+    transform: scale(1.2, 1.2);
 
 }
 
@@ -233,11 +241,13 @@ li::marker {
     /* border: 1px solid black; */
     font-size: 85px;
     font-family: 'EliceDigitalBaeum_Regular';
-    
+
 }
+
 .main_cover_logo_title:nth-child(2) {
     font-size: 80px;
 }
+
 .main_cover_logo_title:nth-child(4) {
     display: flex;
     justify-content: center;
@@ -247,12 +257,14 @@ li::marker {
 
 #second_arr {
     /* border: 1px solid black; */
+
 }
 
 #third_arr {
     /* border: 1px solid black; */
     transition: background-color 0.8s;
 }
+
 #fourth_arr {
     /* border: 1px solid yellow; */
     /* background-color: white; */
@@ -260,8 +272,9 @@ li::marker {
     justify-content: center;
     align-items: center;
 }
+
 #fifth_arr {
-    /* border: 1px solid black; */
+    /* border: 1px solid black;     */
 }
 
 #second_page_main_container {
@@ -269,7 +282,8 @@ li::marker {
     width: 40vw;
     height: 100vh;
     margin-left: 60vw;
-} 
+}
+
 #second_page_title_cover {
     /* border: 1px solid black; */
     width: 40vw;
@@ -278,15 +292,15 @@ li::marker {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-    
+
+
 }
 
 .second_page_main_title {
     /* border: 1px solid black; */
     width: 40vw;
     height: 30vh;
-    
+
     transform: translateY(-60%);
     /* position: relative; */
     margin-left: 0;
@@ -295,7 +309,7 @@ li::marker {
 .second_page_sub_title {
     font-size: 40px;
     color: #F2EA79;
-    
+
 }
 
 .second_page_title {
@@ -344,17 +358,18 @@ li::marker {
     height: 100%;
     width: 100%;
 } */
-#second_page_title_more:focus{
+#second_page_title_more:focus {
     outline: none;
 }
 
 #second_page_title_more:hover:before {
     transform: translateX(100%);
 }
+
 #second_page_title_more:hover {
     color: white;
     background-color: black;
-    
+
 }
 
 #third_page_main_container {
@@ -362,7 +377,8 @@ li::marker {
     width: 87vw;
     height: 100vh;
     margin-left: 13vw;
-} 
+}
+
 #third_page_title_cover {
     /* border: 1px solid black; */
     width: 40vw;
@@ -371,15 +387,15 @@ li::marker {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-    
+
+
 }
 
 .third_page_main_title {
     /* border: 1px solid black; */
     width: 40vw;
     height: 20vh;
-    
+
     transform: translateY(-60%);
     /* position: relative; */
     margin-left: 0;
@@ -388,7 +404,7 @@ li::marker {
 .third_page_sub_title {
     font-size: 40px;
     color: #F2EA79;
-    
+
 }
 
 .third_page_title {
@@ -402,12 +418,11 @@ li::marker {
     height: 100vh;
     font-size: 30px;
     color: green;
-    
+
 }
 
 #boxfour {
     /* background-color: black; */
-    
 }
 
 .fourth_arr_member_cover {
@@ -429,3 +444,229 @@ li::marker {
 /* .textColorWhite {
     color: white
 } */
+
+.fifth_container {
+    /* border: 1px solid black; */
+    width: 100vw;
+    height: 100vh;
+
+}
+
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.fifth_container {
+    font: normal 16px/1.5 "Helvetica Neue", sans-serif;
+    background: #f2f2f2;
+    color: #fff;
+}
+
+
+/* .section SECTION
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.section {
+    background: white;
+
+}
+
+.timeline_container {
+    margin-top: 15vh;
+    /* border: 10px solid black; */
+    margin-left: 10vw;
+    z-index: -1;
+    overflow: hidden;
+}
+
+/* TIMELINE
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.timeline {
+    white-space: nowrap;
+    overflow-x: hidden;
+}
+
+.timeline ol {
+    font-size: 0;
+    width: 100vw;
+    padding: 250px 0;
+    transition: all 1s;
+}
+
+.timeline ol li {
+    position: relative;
+    display: inline-block;
+    list-style-type: none;
+    width: 160px;
+    height: 3px;
+    background: #0d0d0d;
+    z-index: -1;
+}
+
+.timeline ol li:last-child {
+    width: 280px;
+}
+
+.timeline ol li:not(:first-child) {
+    margin-left: 14px;
+}
+
+.timeline ol li:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: calc(100% + 1px);
+    bottom: 0;
+    width: 12px;
+    height: 12px;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    background: #0D0D0D;
+}
+
+.timeline ol li div {
+    position: absolute;
+    left: calc(100% + 7px);
+    width: 280px;
+    padding: 15px;
+    font-size: 1rem;
+    white-space: normal;
+    color: black;
+    background: #F2DE79;
+
+}
+
+.timeline ol li div::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+
+.timeline ol li:nth-child(odd) div {
+    top: -16px;
+    transform: translateY(-100%);
+}
+
+.timeline ol li:nth-child(odd) div::before {
+    top: 100%;
+    border-width: 8px 8px 0 0;
+    border-color: #F2DE79 transparent transparent transparent;
+}
+
+.timeline ol li:nth-child(even) div {
+    top: calc(100% + 16px);
+}
+
+.timeline ol li:nth-child(even) div::before {
+    top: -8px;
+    border-width: 8px 0 0 8px;
+    border-color: transparent transparent transparent #F2DE79;
+}
+
+.timeline time {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+
+/* TIMELINE ARROWS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.timeline .arrows {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.timeline .arrows .arrow__prev {
+    margin-right: 20px;
+}
+
+.timeline .disabled {
+    opacity: .5;
+}
+
+.timeline .arrows img {
+    width: 45px;
+    height: 45px;
+}
+
+
+/* GENERAL MEDIA QUERIES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@media screen and (max-width: 599px) {
+
+    .timeline ol,
+    .timeline ol li {
+        width: auto;
+    }
+
+    .timeline ol {
+        padding: 0;
+        transform: none !important;
+    }
+
+    .timeline ol li {
+        display: block;
+        height: auto;
+        background: transparent;
+    }
+
+    .timeline ol li:first-child {
+        margin-top: 25px;
+    }
+
+    .timeline ol li:not(:first-child) {
+        margin-left: auto;
+    }
+
+    .timeline ol li div {
+        width: 94%;
+        height: auto !important;
+        margin: 0 auto 25px;
+    }
+
+    .timeline ol li div {
+        position: static;
+    }
+
+    .timeline ol li:nth-child(odd) div {
+        transform: none;
+    }
+
+    .timeline ol li:nth-child(odd) div::before,
+    .timeline ol li:nth-child(even) div::before {
+        left: 50%;
+        top: 100%;
+        transform: translateX(-50%);
+        border: none;
+        border-left: 1px solid white;
+        height: 25px;
+    }
+
+    .timeline ol li:last-child,
+    .timeline ol li:nth-last-child(2) div::before,
+    .timeline ol li:not(:last-child)::after,
+    .timeline .arrows {
+        display: none;
+    }
+}
