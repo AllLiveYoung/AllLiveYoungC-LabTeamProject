@@ -13,8 +13,8 @@ const header = document.getElementById("main_header");
 const brandName = document.getElementById("brand_name");
 const menuIcon = document.getElementsByClassName("fas fa-bars");
 const darkMode = document.getElementsByClassName("fas fa-moon");
+const contentsOfTable = document.getElementsByClassName("contents");
 
-let changeCount = 0;
 
 
 
@@ -397,9 +397,9 @@ gsap.fromTo(header, { backgroundColor: "#f2f2f2" }, {
 
     // ADD SWIPE SUPPORT FOR TOUCH DEVICES
     function setSwipeFn(tl, prev, next) {
-        const hammer = new Hammer(tl);
-        hammer.on("swipeleft", () => next.click());
-        hammer.on("swiperight", () => prev.click());
+        // const hammer = new Hammer(tl);
+        // hammer.on("swipeleft", () => next.click());
+        // hammer.on("swiperight", () => prev.click());
     }
 
     // ADD BASIC KEYBOARD FUNCTIONALITY
@@ -421,3 +421,6 @@ gsap.fromTo(header, { backgroundColor: "#f2f2f2" }, {
     }
 
 })();
+
+
+

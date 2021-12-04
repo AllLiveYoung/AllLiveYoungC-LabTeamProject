@@ -726,4 +726,8 @@ button {
     }
 }
 
-.fourth_arr_member {}
+
+
+.dark {
+    background-color: black;
+}
