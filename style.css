@@ -48,7 +48,9 @@ p {
     padding: 0;
 }
 
-a {
+
+
+li a {
     font-style: none;
     text-decoration: none;
     color: black;
@@ -443,6 +445,7 @@ li::marker {
     height: 38vh;
     border-radius: 20px;
 }
+
 figure {
     transition: opacity 0.2s;
     position: relative;
@@ -723,7 +726,10 @@ button {
     }
 }
 
-.fourth_arr_member {
-    
-
+div a {
+    font-style: none;
+    text-decoration: none;
+    color: black;
 }
+
+.fourth_arr_member {}
