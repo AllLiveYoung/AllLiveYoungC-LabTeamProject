@@ -21,6 +21,118 @@ function goToTheTop() {
 brandName.addEventListener("click", goToTheTop)
 
 
+// 2번박스 색변경
+gsap.to(secondBox, {
+    duration: 0.5,
+    backgroundColor: "#737373",
+    scrollTrigger: {
+        scroller: scrollContainer,
+        trigger: secondBox,
+        toggleActions: "play reverse play reverse",
+        scrub: true,
+        start: "center bottom",
+        end: "200px 200px",
+        // markers: true,
+    }
+});
+
+
+// contents 텍스트 색변경 (2번 박스)
+gsap.to(links, {
+    duration: 0.3,
+    color: "white",
+    scrollTrigger: {
+        scroller: scrollContainer,
+        trigger: secondBox,
+        toggleActions: "play reverse play reverse",
+        // scrub: true,
+        start: "center bottom",
+        end: "center top",
+        // markers: true,
+    }
+});
+
+
+// li 태그 점 색변경 (2번 박스)
+gsap.to(linkDots, {
+    duration: 0.3,
+    color: "white",
+    scrollTrigger: {
+        scroller: scrollContainer,
+        trigger: secondBox,
+        toggleActions: "play reverse play reverse",
+        // scrub: true,
+        start: "center bottom",
+        end: "center top",
+        // markers: true,
+    }
+});
+
+
+// 달 아이콘 색변경 (2번 박스)
+gsap.to(darkMode, {
+    duration: 0.5,
+    color: "white",
+    scrollTrigger: {
+        scroller: scrollContainer,
+        trigger: secondBox,
+        toggleActions: "play reverse play reverse",
+        // scrub: true,
+        start: "center bottom",
+        end: "center top",
+        // markers: true,
+    }
+});
+
+
+// 메뉴 아이콘 색변경 (2번 박스)
+gsap.to(menuIcon, {
+    duration: 0.5,
+    color: "white",
+    scrollTrigger: {
+        scroller: scrollContainer,
+        trigger: secondBox,
+        toggleActions: "play reverse play reverse",
+        // scrub: true,
+        start: "center bottom",
+        end: "center top",
+        // markers: true,
+    }
+});
+
+
+// 헤더 배경 색깔 변경 (2번 박스)
+gsap.to(header, {
+    duration: 0.5,
+    color: "white",
+    scrollTrigger: {
+        scroller: scrollContainer,
+        trigger: secondBox,
+        toggleActions: "play reverse play reverse",
+        // scrub: true,
+        start: "center bottom",
+        end: "center top",
+        // markers: true,
+    }
+});
+
+
+// 팀 로고 색 변경 (2번째 박스)
+gsap.to(brandName, {
+    duration: 0.5,
+    color: "white",
+    scrollTrigger: {
+        scroller: scrollContainer,
+        trigger: secondBox,
+        toggleActions: "play reverse play reverse",
+        // scrub: true,
+        start: "center bottom",
+        end: "center top",
+        // markers: true,
+    }
+});
+
+
 
 // 4번박스 색변경
 gsap.to(fourthBox, {
@@ -86,7 +198,20 @@ gsap.to(menuIcon, {
 });
 
 
-
+// 달 아이콘 색변경 (4번 박스)
+gsap.to(darkMode, {
+    duration: 0.5,
+    color: "white",
+    scrollTrigger: {
+        scroller: scrollContainer,
+        trigger: fourthBox,
+        toggleActions: "play reverse play reverse",
+        // scrub: true,
+        start: "center bottom",
+        end: "center top",
+        // markers: true,
+    }
+});
 
 
 // 헤더 배경 색깔 변경 (4번 박스)
@@ -150,7 +275,7 @@ gsap.fromTo(header, { backgroundColor: "white" }, {
 
 gsap.fromTo(header, { backgroundColor: "black" }, {
     duration: 0.5,
-    backgroundColor: "white",
+    backgroundColor: "#F2F2F2",
     scrollTrigger: {
         scroller: scrollContainer,
         trigger: fourthBox,
@@ -164,7 +289,7 @@ gsap.fromTo(header, { backgroundColor: "black" }, {
 
 gsap.fromTo(header, { backgroundColor: "#f2f2f2" }, {
     duration: 0.5,
-    backgroundColor: "#727272",
+    backgroundColor: "#737373",
     scrollTrigger: {
         scroller: scrollContainer,
         trigger: firstBox,
