@@ -14,14 +14,8 @@ const brandName = document.getElementById("brand_name");
 const menuIcon = document.getElementsByClassName("fas fa-bars");
 const darkMode = document.getElementsByClassName("fas fa-moon");
 
+let changeCount = 0;
 
-brandName.addEventListener("click", function () {
-    window.scrollTo({
-        top: 0,
-        left: 0
-
-    })
-})
 
 
 // 2번박스 색변경
@@ -305,7 +299,6 @@ gsap.fromTo(header, { backgroundColor: "#f2f2f2" }, {
 });
 
 
-
 (function () {
 
     // VARIABLES
@@ -320,6 +313,7 @@ gsap.fromTo(header, { backgroundColor: "#f2f2f2" }, {
         disabledClass = "disabled";
 
     // START
+
     window.addEventListener("load", init);
 
     function init() {

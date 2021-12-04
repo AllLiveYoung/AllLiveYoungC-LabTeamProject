@@ -50,7 +50,7 @@ p {
 
 
 
-li a {
+a {
     font-style: none;
     text-decoration: none;
     color: black;
@@ -724,12 +724,6 @@ button {
     .timeline .arrows {
         display: none;
     }
-}
-
-div a {
-    font-style: none;
-    text-decoration: none;
-    color: black;
 }
 
 .fourth_arr_member {}
