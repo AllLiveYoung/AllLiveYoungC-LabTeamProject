@@ -438,11 +438,3 @@ toggleBtn.addEventListener('click', () => {
     menu.classList.toggle('active');
 })
 
-function getScrollPosition() {
-    return Math.floor(($(window).scrollTop() / ($(document).height() - $(window).height())) * 100);
-}
-
-// 스크롤을 움직일때마다 해당 함수가 실행
-$(window).scroll(getScrollPosition);
-
-

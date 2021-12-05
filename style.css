@@ -300,20 +300,22 @@ li::marker {
 }
 
 #second_page_main_container {
-    /* border: 1px solid black; */
-    width: 40vw;
+    /* border: 1px solid blue; */
+    width: 100vw;
     height: 100vh;
-    margin-left: 60vw;
+
+    display: flex;
 }
 
 #second_page_title_cover {
-    /* border: 1px solid black; */
+    /* border: 1px solid blue; */
     width: 40vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-left: 20vw;
 
 
 }
@@ -391,14 +393,18 @@ li::marker {
 }
 
 .wrap {
+    /* border: 1px solid black; */
     position: relative;
     padding: 2%;
+    margin-left: 13vw;
+    margin-top: 10vh;
 }
 
 .graphe_container {
     display: flex;
     gap: 10px;
     margin-bottom: 10px;
+    border: 1px solid black;
 }
 
 .chart {
