@@ -390,6 +390,23 @@ li::marker {
     outline: none;
 }
 
+.wrap {
+    position: relative;
+    padding: 2%;
+}
+
+.graphe_container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.chart {
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
 #second_page_title_more:hover:before {
     transform: translateX(100%);
 }
