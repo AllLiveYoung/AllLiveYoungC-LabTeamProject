@@ -118,7 +118,7 @@ li::marker {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #0d0d0d
+    color: #0d0d0d;
 }
 
 #main_header_logo_contents {
@@ -153,7 +153,7 @@ li::marker {
 }
 
 #main_container {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 100vw;
     height: 90vh;
     display: flex;
@@ -239,9 +239,9 @@ li::marker {
 
 .main_background {
     /* border: 1px solid black; */
-    width: 50vw;
+    width: 40vw;
     height: 90vh;
-
+    margin-right: 10vw;
 }
 
 .img_airplane {
@@ -428,8 +428,7 @@ li::marker {
     /* border: 1px solid black; */
     width: 40vw;
     height: 20vh;
-
-    transform: translateY(-60%);
+    transform: translateY(-80%);
     /* position: relative; */
     margin-left: 0;
 }
@@ -441,17 +440,17 @@ li::marker {
 }
 
 .third_page_title {
-    font-size: 60px;
+    font-size: 80px;
     font-family: 'EliceDigitalBaeum_Regular';
 }
 
 .third_page_title:nth-child(3) {
-    font-size: 20px;
+    font-size: 30px;
 
 }
 
 .third_page_title:nth-child(4) {
-    font-size: 20px;
+    font-size: 30px;
     margin-top: 10px;
 }
 
@@ -776,7 +775,7 @@ button {
     background-color: black;
 }
 
-@media screen and (max-width: 966px) {
+@media screen and (max-width: 1000px) {
     #table_of_contents {
         display: none;
     }
@@ -796,5 +795,29 @@ button {
         font-size: 60px;
     }
 
+    .third_page_sub_title {
+        font-size: 30px;
+        color: #F2EA79;
+
+    }
+
+    .third_page_title {
+        font-size: 70px;
+        font-family: 'EliceDigitalBaeum_Regular';
+    }
+
+    .third_page_title:nth-child(3) {
+        font-size: 20px;
+
+    }
+
+    .third_page_title:nth-child(4) {
+        font-size: 20px;
+        margin-top: 5px;
+    }
+
+    .second_page_title {
+        font-size: 40px;
+    }
 
 }
