@@ -86,6 +86,7 @@ li::marker {
 
 #first_arr {
     background-color: #f2f2f2;
+
 }
 
 #main_header {
@@ -158,7 +159,22 @@ li::marker {
     height: 90vh;
     display: flex;
     margin-top: 70px;
+    position: relative;
+
 }
+
+/* #main_container::before {
+    background-image: url("https://i.pinimg.com/564x/41/87/ff/4187ff6efa067d96bb17e11f8d81c822.jpg");
+    content: "";
+
+    opacity: 0.4;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+
+} */
 
 #table_of_contents {
     /* border: 1px solid black; */
@@ -174,6 +190,7 @@ li::marker {
     /* border: 1px solid black; */
     width: 87vw;
     height: 100vh;
+
 }
 
 #table_of_contents_content {
@@ -235,7 +252,6 @@ li::marker {
 
 .main_cover_logo_fullname {
     font-size: 30px;
-    color: #F2EA79;
     font-weight: 'EliceDigitalBaeum_Regular';
 }
 
