@@ -193,7 +193,6 @@ li::marker {
     top: 320px;
     left: 22px;
     right: 0;
-
 }
 
 .contents {
@@ -301,22 +300,22 @@ li::marker {
 }
 
 #second_page_main_container {
-    /* border: 1px solid green; */
+    /* border: 1px solid black; */
     width: 40vw;
     height: 100vh;
-    display: flex;
-    flex-direction: row-reverse;
-
+    margin-left: 60vw;
 }
 
 #second_page_title_cover {
-    /* border: 1px solid yellow; */
+    /* border: 1px solid black; */
     width: 40vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+
 }
 
 .second_page_main_title {
@@ -326,7 +325,7 @@ li::marker {
     transform: translateY(-60%);
     /* position: relative; */
     margin-left: -20%;
-    /* margin-top: 10px; */
+    margin-top: 90px;
 }
 
 .second_page_sub_title {
@@ -337,71 +336,9 @@ li::marker {
 }
 
 .second_page_title {
-    font-size: 55px;
+    font-size: 60px;
     font-family: 'EliceDigitalBaeum_Regular';
     color: white;
-}
-
-#graphe {
-    /* border: 1px solid black; */
-    width: 45vw;
-    height: 100vh;
-    margin-left: 15vw;
-}
-
-span {
-    position: absolute;
-    display: inline-block;
-    width: 60px;
-    bottom: 0;
-    font-size: 20px;
-    line-height: 1.8em;
-    color: #FFF;
-    text-align: center;
-    border-radius: 15px;
-}
-
-#graphe {
-    position: relative;
-    height: 90vh;
-    background-color: #737373;
-    margin-top: 10vh;
-}
-
-.blue {
-    background-color: #5abae6;
-}
-
-.red {
-    background-color: #d34e4e;
-}
-
-.green {
-    background-color: #9dbb19;
-}
-
-.yellow {
-    background-color: #f7b358;
-}
-
-span:nth-of-type(1) {
-    height: 100%;
-    left: 0px;
-}
-
-span:nth-of-type(2) {
-    height: 80%;
-    left: 70px;
-}
-
-span:nth-of-type(3) {
-    height: 60%;
-    left: 140px;
-}
-
-span:nth-of-type(4) {
-    height: 20%;
-    left: 210px;
 }
 
 /* #second_page_title_more{
@@ -453,16 +390,6 @@ span:nth-of-type(4) {
     outline: none;
 }
 
-/* #second_arr_graph {
-    width: 10vw;
-    height: 60vh;
-    border: 1px solid #fff;
-    margin-top: 100px;
-    margin-left: 100px;
-} */
-
-
-
 #second_page_title_more:hover:before {
     transform: translateX(100%);
 }
@@ -481,27 +408,24 @@ span:nth-of-type(4) {
 
 #third_page_title_cover {
     /* border: 1px solid black; */
-    width: 90vw;
+    width: 40vw;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+
+
 }
 
 .third_page_main_title {
     /* border: 1px solid black; */
     width: 40vw;
     height: 20vh;
-    transform: translateY(-70%);
+
+    transform: translateY(-60%);
     /* position: relative; */
     margin-left: 0;
-}
-
-.img_airplane_2 {
-    display: block;
-    width: 100%;
-    height: auto;
-    margin-top: 18vh;
 }
 
 .third_page_sub_title {
@@ -511,19 +435,15 @@ span:nth-of-type(4) {
 }
 
 .third_page_title {
-    font-size: 80px;
+    font-size: 60px;
     font-family: 'EliceDigitalBaeum_Regular';
 }
 
 .third_page_title:nth-child(3) {
     font-size: 20px;
-    margin-top: 10px;
+
 }
 
-.third_page_title:nth-child(4) {
-    font-size: 20px;
-    margin-top: 10px;
-}
 
 .boxxxx {
     width: 100vw;
