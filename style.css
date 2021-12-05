@@ -300,14 +300,16 @@ li::marker {
 }
 
 #second_page_main_container {
-    /* border: 1px solid black; */
+    border: 1px solid green;
     width: 40vw;
     height: 100vh;
-    margin-left: 60vw;
+    display: flex;
+    flex-direction: row-reverse;
+
 }
 
 #second_page_title_cover {
-    /* border: 1px solid black; */
+    /* border: 1px solid yellow; */
     width: 40vw;
     height: 100vh;
     display: flex;
@@ -315,11 +317,10 @@ li::marker {
     justify-content: center;
     align-items: center;
 
-
 }
 
 .second_page_main_title {
-    /* border: 1px solid black; */
+    border: 1px solid black;
     width: 40vw;
     height: 30vh;
     transform: translateY(-60%);
@@ -339,6 +340,68 @@ li::marker {
     font-size: 55px;
     font-family: 'EliceDigitalBaeum_Regular';
     color: white;
+}
+
+#graphe {
+    border: 1px solid black;
+    width: 45vw;
+    height: 100vh;
+    margin-left: 15vw;
+}
+
+span {
+    position: absolute;
+    display: inline-block;
+    width: 60px;
+    bottom: 0;
+    font-size: 20px;
+    line-height: 1.8em;
+    color: #FFF;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#graphe {
+    position: relative;
+    height: 90vh;
+    background-color: #737373;
+    margin-top: 10vh;
+}
+
+.blue {
+    background-color: #5abae6;
+}
+
+.red {
+    background-color: #d34e4e;
+}
+
+.green {
+    background-color: #9dbb19;
+}
+
+.yellow {
+    background-color: #f7b358;
+}
+
+span:nth-of-type(1) {
+    height: 100%;
+    left: 0px;
+}
+
+span:nth-of-type(2) {
+    height: 80%;
+    left: 70px;
+}
+
+span:nth-of-type(3) {
+    height: 60%;
+    left: 140px;
+}
+
+span:nth-of-type(4) {
+    height: 20%;
+    left: 210px;
 }
 
 /* #second_page_title_more{
