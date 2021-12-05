@@ -430,3 +430,10 @@ gsap.fromTo(header, { backgroundColor: "white" }, {
 //     .style("left", (d.i)=>(i * 80) + "px")
 //     .transition().duration(1500)
 //     .style("height", d => d.val + "%");
+
+const toggleBtn = document.querySelector('#main_header_logo_contents_bars');
+const menu = document.querySelector('#table_of_contents');
+
+toggleBtn.addEventListener('click', () => {
+    menu.classList.toggle('active');
+})
