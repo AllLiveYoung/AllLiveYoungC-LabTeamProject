@@ -437,6 +437,11 @@ li::marker {
     font-family: 'EliceDigitalBaeum_Regular';
 }
 
+.third_page_title:nth-child(3) {
+    font-size: 20px;
+
+}
+
 
 .boxxxx {
     width: 100vw;
