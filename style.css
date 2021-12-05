@@ -85,7 +85,7 @@ li::marker {
 }
 
 #first_arr {
-    background-color: #f2f2f2;
+    background-color: white;
 
 }
 
@@ -163,18 +163,6 @@ li::marker {
 
 }
 
-/* #main_container::before {
-    background-image: url("https://i.pinimg.com/564x/41/87/ff/4187ff6efa067d96bb17e11f8d81c822.jpg");
-    content: "";
-
-    opacity: 0.4;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-
-} */
 
 #table_of_contents {
     /* border: 1px solid black; */
@@ -234,24 +222,40 @@ li::marker {
 
 #main_middle_front_cover_logo {
     /* border: 1px solid black; */
-    width: 40vw;
+    width: 87vw;
     height: 90vh;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+
+    justify-content: start;
     align-items: center;
     margin-left: 30px;
 }
 
 .main_cover_logo {
     /* border: 1px solid black; */
-    width: 45vw;
+    width: 35vw;
     height: 20vh;
     transform: translateY(-80%);
 }
 
+.main_background {
+    /* border: 1px solid black; */
+    width: 50vw;
+    height: 90vh;
+
+}
+
+.img_airplane {
+    display: block;
+    width: 100%;
+    height: auto;
+    transform: translateY(30%);
+}
+
+
 .main_cover_logo_fullname {
     font-size: 30px;
+    color: #F2EA79;
     font-weight: 'EliceDigitalBaeum_Regular';
 }
 
