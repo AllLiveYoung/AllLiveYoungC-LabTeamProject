@@ -299,32 +299,30 @@ li::marker {
 }
 
 #second_page_main_container {
-    /* border: 1px solid black; */
+    border: 1px solid black;
     width: 40vw;
     height: 100vh;
     margin-left: 60vw;
 }
 
 #second_page_title_cover {
-    /* border: 1px solid black; */
+    border: 1px solid black;
     width: 40vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-
 }
 
 .second_page_main_title {
-    /* border: 1px solid black; */
+    border: 1px solid black;
     width: 40vw;
     height: 30vh;
     transform: translateY(-60%);
     /* position: relative; */
     margin-left: -20%;
-    margin-top: 90px;
+    /* margin-top: 10px; */
 }
 
 .second_page_sub_title {
@@ -388,6 +386,16 @@ li::marker {
 #second_page_title_more:focus {
     outline: none;
 }
+
+/* #second_arr_graph {
+    width: 10vw;
+    height: 60vh;
+    border: 1px solid #fff;
+    margin-top: 100px;
+    margin-left: 100px;
+} */
+
+
 
 #second_page_title_more:hover:before {
     transform: translateX(100%);

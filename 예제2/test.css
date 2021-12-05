@@ -1,45 +1,42 @@
+span {
+	position: absolute;
+	display: inline-block;
+	width: 60px;
+	bottom: 0;
+}
+div {
+	position: relative;
+	height: 400px;
+	border: 1px solid #FFF;
+}
 
-	* {
-		margin: 0;
-		padding: 0;
-	}
-	ul li{
-		list-style: none;
-	}
-	a {
-		text-decoration: none;
-		color:#333;
-	}
+span:nth-of-type(1){height: 100%; left: 0px;}
+span:nth-of-type(2){height: 80%;  left: 70px;}
+span:nth-of-type(3){height: 60%;  left: 140px;}
+span:nth-of-type(4){height: 20%;  left: 210px;}
 
-	#menu {
-		font:bold 16px "malgun gothic";
-		width:700px;
-		height:50px;
-		background: #ccc;
-		color:black;
-		line-height: 50px; 
-		margin:0 auto;
-		text-align: center;
-	}
 
-	#menu > ul > li {
-		float:left;
-		width:140px;
-		position:relative;
-	}
-	#menu > ul > li > ul {
-		width:130px;
-		display:none;
-		position: absolute;
-		font-size:14px;
-		background: skyblue;
-	}
-	#menu > ul > li:hover > ul {
-		display:block;
-		
-	}
-	#menu > ul > li > ul > li:hover {
-		background: orange;
-		transition: ease 1s;
-		}
-	
+body { 
+	background-color: #262626;}	
+.blue { 
+	background-color: #5abae6;}
+.red {
+	background-color: #d34e4e;
+}
+.green {
+	background-color: #9dbb19;
+}
+.yellow {
+	background-color: #f7b358;
+}
+
+div {
+	margin: 50px 50px;
+}
+span {
+	font-size: 20px;
+	line-height: 1.8em;
+	color: #FFF;
+	text-align: center;
+	border-radius: 15px;
+}
