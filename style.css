@@ -85,7 +85,7 @@ li::marker {
 }
 
 #first_arr {
-    background-color: #f2f2f2;
+    background-color: white;
 }
 
 
@@ -384,6 +384,7 @@ li::marker {
     height: 100%;
     width: 100%;
 } */
+
 #second_page_title_more:focus {
     outline: none;
 }
@@ -509,7 +510,7 @@ figure:hover img {
     transform: scale(1.1, 1.1);
     transition: all .3s ease;
     opacity: 0.15;
-    cursor: url("https://hcode.b-cdn.net/wp-content/themes/h-code/assets/images/icon-zoom-white.png"), pointer
+
 }
 
 figure:hover figcaption {
