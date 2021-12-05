@@ -408,24 +408,27 @@ li::marker {
 
 #third_page_title_cover {
     /* border: 1px solid black; */
-    width: 40vw;
+    width: 90vw;
     height: 100vh;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-
-
 }
 
 .third_page_main_title {
     /* border: 1px solid black; */
     width: 40vw;
     height: 20vh;
-
     transform: translateY(-70%);
     /* position: relative; */
     margin-left: 0;
+}
+
+.img_airplane_2 {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 18vh;
 }
 
 .third_page_sub_title {
@@ -444,6 +447,10 @@ li::marker {
     margin-top: 10px;
 }
 
+.third_page_title:nth-child(4) {
+    font-size: 20px;
+    margin-top: 10px;
+}
 
 .boxxxx {
     width: 100vw;
