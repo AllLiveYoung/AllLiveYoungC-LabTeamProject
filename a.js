@@ -284,7 +284,7 @@ gsap.fromTo(header, { backgroundColor: "black" }, {
     }
 });
 
-gsap.fromTo(header, { backgroundColor: "#f2f2f2" }, {
+gsap.fromTo(header, { backgroundColor: "white" }, {
     duration: 0.5,
     backgroundColor: "#737373",
     scrollTrigger: {
