@@ -194,6 +194,7 @@ li::marker {
     top: 320px;
     left: 22px;
     right: 0;
+
 }
 
 .contents {
@@ -336,7 +337,7 @@ li::marker {
 }
 
 .second_page_title {
-    font-size: 60px;
+    font-size: 55px;
     font-family: 'EliceDigitalBaeum_Regular';
     color: white;
 }
