@@ -85,7 +85,10 @@ li::marker {
 }
 
 #first_arr {
-    background-color: #f2f2f2;
+    background: #a8c0ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3f2b96, #a8c0ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3f2b96, #a8c0ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 #main_header {
@@ -305,6 +308,7 @@ li::marker {
     transform: translateY(-60%);
     /* position: relative; */
     margin-left: -20%;
+    margin-top: 90px;
 }
 
 .second_page_sub_title {
@@ -492,6 +496,11 @@ figure:hover figcaption {
 }
 
 .gallery-img {
+    width: 260px;
+    height: 345px;
+}
+
+#male_img {
     width: 260px;
     height: 345px;
 }
