@@ -80,10 +80,6 @@ backBtn.addEventListener('click', () => {
     hiddenDisplay.classList.toggle('active');
 })
 
-//다크모드 
-darkMode.addEventListener('click', () => {
-
-})
 
 // 2번박스 색변경
 gsap.to(secondBox, {
