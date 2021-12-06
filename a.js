@@ -72,11 +72,17 @@ toggleBtn.addEventListener('click', () => {
     menu.classList.toggle('active');
 })
 
+// 2번페이지 more버튼 
 const backBtn = document.querySelector('.btn_hidden');
 backBtn.addEventListener('click', () => {
     pageTitle.classList.toggle('active');
     graphe.classList.toggle('active');
     hiddenDisplay.classList.toggle('active');
+})
+
+//다크모드 
+darkMode.addEventListener('click', () => {
+
 })
 
 // 2번박스 색변경
