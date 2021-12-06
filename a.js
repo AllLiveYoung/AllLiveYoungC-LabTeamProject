@@ -22,32 +22,62 @@ const chart1 = document.querySelector('.doughnut1');
 const chart2 = document.querySelector('.doughnut2');
 const chart3 = document.querySelector('.doughnut3');
 
+
 const makeChart = (percent, classname, color) => {
-  let i = 1;
-  let chartFn = setInterval(function() {
-    if (i < percent) {
-      colorFn(i, classname, color);
-      i++;
-    } else {
-      clearInterval(chartFn);
-    }
-  }, 10);
+    let i = 1;
+    let chartFn = setInterval(function () {
+        if (i < percent) {
+            colorFn(i, classname, color);
+            i++;
+        } else {
+            clearInterval(chartFn);
+        }
+
+    }, 10);
 }
 
 const colorFn = (i, classname, color) => {
-  classname.style.background = "conic-gradient(" + color + " 0% " + i + "%, #dedede " + i + "% 100%)";
+    classname.style.background = "conic-gradient(" + color + " 0% " + i + "%, #dedede " + i + "% 100%)";
 }
 
 const replay = () => {
-  makeChart(80, chart1, '#f5b914');
-  makeChart(40, chart2, '#0A174E');
-  makeChart(60, chart3, '#66d2ce');
+    makeChart(80, chart1, '#f5b914');
+    makeChart(40, chart2, '#0A174E');
+    makeChart(60, chart3, '#66d2ce');
 }
+
 
 makeChart(80, chart1, '#f5b914');
 makeChart(40, chart2, '#0A174E');
 makeChart(60, chart3, '#66d2ce');
 
+
+const moreBtn = document.querySelector('.second_page_title_more');
+const pageTitle = document.querySelector('#second_page_title_cover');
+const graphe = document.querySelector('.graphe_main_container');
+const hiddenDisplay = document.querySelector('#second_page_main_container_hidden')
+
+moreBtn.addEventListener('click', () => {
+    pageTitle.classList.toggle('active');
+    graphe.classList.toggle('active');
+    hiddenDisplay.classList.toggle('active');
+})
+
+
+
+const toggleBtn = document.querySelector('#main_header_logo_contents_bars');
+const menu = document.querySelector('#table_of_contents');
+
+toggleBtn.addEventListener('click', () => {
+    menu.classList.toggle('active');
+})
+
+const backBtn = document.querySelector('.btn_hidden');
+backBtn.addEventListener('click', () => {
+    pageTitle.classList.toggle('active');
+    graphe.classList.toggle('active');
+    hiddenDisplay.classList.toggle('active');
+})
 
 // 2번박스 색변경
 gsap.to(secondBox, {
@@ -462,10 +492,4 @@ gsap.fromTo(header, { backgroundColor: "white" }, {
 //     .transition().duration(1500)
 //     .style("height", d => d.val + "%");
 
-const toggleBtn = document.querySelector('#main_header_logo_contents_bars');
-const menu = document.querySelector('#table_of_contents');
-
-toggleBtn.addEventListener('click', () => {
-    menu.classList.toggle('active');
-})
 
