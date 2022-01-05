@@ -89,10 +89,10 @@ gsap.to(secondBox, {
         scroller: scrollContainer,
         trigger: secondBox,
         toggleActions: "play reverse play reverse",
-        scrub: true,
+        // scrub: true,
         start: "center bottom",
         end: "200px 200px",
-        markers: true,
+        // markers: true,
     }
 });
 
